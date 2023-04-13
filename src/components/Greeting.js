@@ -2,6 +2,7 @@ import React, { useEffect, useCallback } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import axios from 'axios';
 import { getMessage } from '../redux/greetingReducer';
+import '../Greeting.css';
 
 const Greeting = () => {
   const dispatch = useDispatch();
